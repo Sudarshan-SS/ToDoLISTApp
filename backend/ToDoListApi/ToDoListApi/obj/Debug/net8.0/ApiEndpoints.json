@@ -1,0 +1,127 @@
+[
+  {
+    "ContainingType": "ToDoListApi.Controllers.ToDoController",
+    "Method": "Addnewtask",
+    "RelativePath": "api/ToDo/AddNewTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addnewtaskreq",
+        "Type": "ToDoListApi.DTOs.Addnewtaskreq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ToDoListApi.DTOs.Addnewtaskres",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ToDoListApi.Controllers.ToDoController",
+    "Method": "GetTodoTask",
+    "RelativePath": "api/ToDo/GetToDoList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gettodolistreq",
+        "Type": "ToDoListApi.DTOs.Gettodolistreq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ToDoListApi.DTOs.Gettodolistres",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ToDoListApi.Controllers.ToDoController",
+    "Method": "UserLogin",
+    "RelativePath": "api/ToDo/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginInfo",
+        "Type": "ToDoListApi.DTOs.LoginInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ToDoListApi.DTOs.LoginRes",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ToDoListApi.Controllers.ToDoController",
+    "Method": "Updatetaskstatus",
+    "RelativePath": "api/ToDo/UpdateStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatetaskstatusreq",
+        "Type": "ToDoListApi.DTOs.Updatetaskstatusreq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ToDoListApi.DTOs.Updatetaskstatusres",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ToDoListApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ToDoListApi.WeatherForecast, ToDoListApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

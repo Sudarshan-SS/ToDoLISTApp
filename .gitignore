@@ -1,0 +1,18 @@
+# React
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+
+# ASP.NET Core
+backend/bin/
+backend/obj/
+backend/appsettings.Development.json
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
